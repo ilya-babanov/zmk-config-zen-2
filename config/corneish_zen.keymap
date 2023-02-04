@@ -90,10 +90,10 @@
                 game_utils_layer {
                         label = "Game+";
                         bindings = <
-   &none &none  &kp N7 &kp N9 &kp N9 &kp T                       &none  &kp N7 &kp N9 &kp N9 &none &none
-   &none &none  &kp N4 &kp N5 &kp N6 &kp G                       &none  &kp N4 &kp N5 &kp N6 &none &none
-   &none &kp N0 &kp N1 &kp N2 &kp N3 &kp B                       &kp N0 &kp N1 &kp N2 &kp N3 &none &none
-                         &none &none &none                       &kp N0 &kp N0 &kp N0
+   &to DEF &none  &kp N7 &kp N9 &kp N9 &kp T                     &none  &kp N7 &kp N9 &kp N9 &none &none
+   &to MAC &none  &kp N4 &kp N5 &kp N6 &kp G                     &none  &kp N4 &kp N5 &kp N6 &none &none
+   &to GAM &kp N0 &kp N1 &kp N2 &kp N3 &kp B                     &kp N0 &kp N1 &kp N2 &kp N3 &none &none
+                           &none &none &none                     &kp N0 &kp N0 &kp N0
                         >;
                 };
         };
